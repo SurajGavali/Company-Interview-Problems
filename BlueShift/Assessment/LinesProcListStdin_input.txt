@@ -1,0 +1,35 @@
+Consider input data (on stdin) in this format:
+rue
+System Design
+Github
+Business
+K E
+k k
+BLOC
+SX
++
+®️
+Update
+Arjun Sharma, MakeMyTrip, 1, Deluxe Room, Rs 8500, Cash Priya Nair, Booking.com, 1, Executive Suite, Rs 15000, Credit Card Arjun Sharma, Agoda, 3, Standard Room, Rs 7500, Cash Kavya Reddy, Expedia, 4, Superior Room, Rs 6000, Credit Card Rajesh Kumar, MakeMyTrip, 5, Executive Suite, Rs 6500, Credit Card Vikram Joshi, Booking.com, 10, Presidential Suite, Rs 25000, Credit Card Arjun Sharma, Expedia, 21, Deluxe Room, Rs 6500, Credit Card Arjun Sharma, MakeMyTrip, 22, Standard Room, Rs 7500, UPI
+Anita Reddy, Agoda, 23, Superior Room, Rs 7000, Cash Kavya Reddy, Booking.com, 24, Executive Suite, Rs 8000, UPI Priya Nair, Expedia, 25, Superior Room, Rs 7500, UPI
+The data is the bookings of rooms in different hotels of a company in the previous month. Each line consists of 6 comma-separated fields. The first column is customer name, the second column is booked via, the third column is date (just day of the month is captured), the fourth column is room type, fifth is price, and sixth is payment type.
+The processData method does nothing - it just returns an empty list. Modify it so that, it processes the input data, finds out which room types have been booked for a discount (i.e. there was at least one booking of the room type at a price lower than the highest price of the room type), and then lists the names of customers who have booked at least one room type at the most discounted price.
+Your program should produce the names of the customers on the standard output, one per line. The output should not contain anything else.
+For the sample input given above, your program should produce the following output:
+Rajesh Kumar
+Arjun Sharma
+Kavya Reddy
+
+Explanation: For the Executive Suite, Rs 6500 is the most discounted price, and Rajesh Kumar booked it. For the Deluxe Room, Rs 6500 is the most discounted price, and Arjun Sharma booked it. For the Superior Room, Rs 6000 is the most discounted price, and Kavya Reddy booked it. Note: For the Standard Room and the Presidential Suite, there are no discounted prices.
+Please read the example carefully to understand exactly what you're expected to do.
+Please make sure of the following:
+ぬ
+r
+§X
+众
+•⁠  ⁠Please download this C++ Program, Java Program, C# Program, Go Program, or Python Program, and change it to create your program, and submit your changed program as your answer. If you try to write your own program from scratch, it will take longer, and will probably not work.
+•⁠  ⁠All your changes must be inside processData. Do not make any changes to the rest of the program
+•⁠  ⁠Make sure that processData returns the correct value
+•⁠  ⁠If you're using C++, please make sure to use only standard C++. Do not use proprietary Microsoft or Turbo-C extensions. Specifically, do not use crscr, getch, or conio.h.
+•⁠  ⁠Do not print anything extra to the output. Any unnecessary printf/printin/putchar will result in a
+•⁠  ⁠Copy paste the entire updated program in the space below. You must submit a full, working, program. Please compile, run, and check the output of your program before submitting it.

@@ -1,0 +1,12 @@
+Debug Xvowels Count #3
+In this question you have to debug a program.
+The program is supposed to read a single line from the standard input and in this line and replace any sequence of 2 or more consecutive vowels with the length of the sequence.
+For the purposes of this question, we define an vowel as one of these letters: aeinou (lowercase only).
+Thus, if the input is "Testing the curious function" your program should print "Test2g the cur3s f2ct3" to the standard output.
+We asked ChatGPT to write this program in various languages, but this program is too difficult for ChatGPT and it produces buggy programs. Here are the programs produced by ChatGPT: Java Program, JavaScript/Node Program, Python Program, Go Program, or Ruby Program
+Choose any one program from from the above (i.e. in the language you're most comfortable with), debug the program. Find the bug, fix it, and paste the complete, correct, working program in the space below.
+Important Instructions:
+•⁠  ⁠At the TOP of your program include a comment indicating what was the bug, and what changes you made.
+•⁠  ⁠You must just fix the bug in this program. Don't rewrite the entire program. Specifically, do not use regular expressions.
+•⁠  ⁠Don't change any of the data-structures used, even if they are not good choices.
+•⁠  ⁠You will not get any credit if you don't follow these instructions exactly
